@@ -14,6 +14,8 @@
 		073A1E4E24107D5700450846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 073A1E4D24107D5700450846 /* Assets.xcassets */; };
 		073A1E5124107D5700450846 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 073A1E4F24107D5700450846 /* LaunchScreen.storyboard */; };
 		073A1E59241092C800450846 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073A1E58241092C800450846 /* Country.swift */; };
+		9BBE15B92411BD35003ECD32 /* DataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBE15B82411BD35003ECD32 /* DataStorage.swift */; };
+		9BBE15BD2411C720003ECD32 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBE15BC2411C720003ECD32 /* MenuTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		073A1E5024107D5700450846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		073A1E5224107D5700450846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		073A1E58241092C800450846 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		9BBE15B82411BD35003ECD32 /* DataStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStorage.swift; sourceTree = "<group>"; };
+		9BBE15BC2411C720003ECD32 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +66,12 @@
 				073A1E4624107D5500450846 /* SceneDelegate.swift */,
 				073A1E4824107D5500450846 /* ViewController.swift */,
 				073A1E4A24107D5500450846 /* Main.storyboard */,
+				9BBE15BC2411C720003ECD32 /* MenuTableViewController.swift */,
 				073A1E4D24107D5700450846 /* Assets.xcassets */,
 				073A1E4F24107D5700450846 /* LaunchScreen.storyboard */,
 				073A1E5224107D5700450846 /* Info.plist */,
 				073A1E58241092C800450846 /* Country.swift */,
+				9BBE15B82411BD35003ECD32 /* DataStorage.swift */,
 			);
 			path = CountryTableViewExample;
 			sourceTree = "<group>";
@@ -143,6 +149,8 @@
 			files = (
 				073A1E59241092C800450846 /* Country.swift in Sources */,
 				073A1E4924107D5500450846 /* ViewController.swift in Sources */,
+				9BBE15BD2411C720003ECD32 /* MenuTableViewController.swift in Sources */,
+				9BBE15B92411BD35003ECD32 /* DataStorage.swift in Sources */,
 				073A1E4524107D5500450846 /* AppDelegate.swift in Sources */,
 				073A1E4724107D5500450846 /* SceneDelegate.swift in Sources */,
 			);
